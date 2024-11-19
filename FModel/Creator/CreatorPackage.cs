@@ -83,6 +83,7 @@ public class CreatorPackage : IDisposable
             case "FortAccountItemDefinition":
             case "SparksGuitarItemDefinition":
             case "FortCardPackItemDefinition":
+            case "FortItemCacheItemDefinition":
             case "FortDefenderItemDefinition":
             case "FortCurrencyItemDefinition":
             case "FortResourceItemDefinition":
@@ -196,6 +197,7 @@ public class CreatorPackage : IDisposable
                 creator = new Bases.FN.BaseQuest(_object, _style);
                 return true;
             case "FortCompendiumItemDefinition":
+            case "FortCompendiumBundleDefinition":
             case "FortChallengeBundleItemDefinition":
                 creator = new BaseBundle(_object, _style);
                 return true;
